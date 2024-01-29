@@ -1,4 +1,7 @@
 body{
-   background-color: blanchedalmond;
-   color: rgb(169, 161, 161);
+   background-color: #808080;
+   color: blanchedalmond;
+}
+strong{
+    color: #EBC36A;
 }
