@@ -28,7 +28,7 @@ body{
     
 }
 .Apresentaçao{
-    margin:9%;
+    margin:9%,5%;
     display: flex; /*Deixar os elementos separados */
     align-items: center;/*Elementos no centro, confrom o amior elemento*/
     justify-content: space-between; /*Separar os elementos das seções 
@@ -36,14 +36,31 @@ body{
 
 }
 .Apresentaçao_conteudo{
-
+    display: flex;
     width: 615px;
+    flex-direction: column;
+    gap:40px;
 
 }
 .Imagem{
     width: 45%;
-   
   justify-content: space-between;
 }
 
+.Links{
+    display: flex;
+    justify-content:space-between ;
 
+}
+.Apres_Links{
+    background-color: #EBC36A;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px,0px;
+    text-decoration: none;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+}
