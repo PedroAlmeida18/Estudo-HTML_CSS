@@ -65,17 +65,16 @@ body{
     align-items: center;/*Elementos no centro, confrom o amior elemento*/
     justify-content: space-between; /*Separar os elementos das seções 
     como temos duas apenas */
-
+    gap :82px;
 }
 .Apresentaçao_conteudo{
     display: flex;
-    width: 38.4375rem;
+    width:50%;
     flex-direction: column;
     gap:2.5rem;
-
 }
 .Imagem{
-    width: 45%;
+    width: 50%;
   justify-content: space-between;
 }
 
@@ -85,7 +84,6 @@ body{
     flex-direction: column;
     align-items: center;
     gap:2rem;
-
 }
 
 .Apresentação_Redes{
@@ -99,7 +97,7 @@ body{
     display: flex;
     justify-content: center;
     gap: 1rem;
-    width: 23.625rem;
+    width: 50%;
     text-align: center;
     border-radius: 0.5rem;
     font-size: 1.5rem;
@@ -109,8 +107,6 @@ body{
     color:white;
     font-family: var(--fonteitexto);
     border: 0.1875rem outset var(--cor-secundaria);
-
-  
 }
 .Apres_Links:hover{
     background-color:var(--cor-secundaria);
@@ -121,6 +117,24 @@ body{
     color: #EBC36A;
     text-align: center;
     font-family: var(--fonteitexto);
-    
-
 }
+@media(max-width:1200px){
+    .Cabecalho_Menu{
+        justify-content: center;
+
+        
+    }
+    .Cabeçalho{
+        padding : 10%
+    }
+    .Apresentaçao{
+        flex-direction: column-reverse;
+        padding: 5%;
+    
+    }
+    .Apresentaçao_conteudo{
+        width: auto;
+    }
+}
+    
+    
